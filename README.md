@@ -4,8 +4,9 @@
 # gganime
 
 A lightweight, **ggsci-style** R package providing **built-in discrete
-palettes** inspired by anime/illustration aesthetics, with drop-in
-`ggplot2` scales.
+palettes** inspired by A-SOUL, with drop-in `ggplot2` scales.
+
+“我的嘉心糖都是很厉害的人”——Diana
 
 <!-- badges: start -->
 
@@ -33,14 +34,14 @@ remotes::install_github("lingxuko/gganime")
 #> Using GitHub PAT from the git credential store.
 #> Downloading GitHub repo lingxuko/gganime@HEAD
 #> ── R CMD build ─────────────────────────────────────────────────────────────────
-#> * checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpE5xFWF/remotesa0914ba3f81a/lingxuko-gganime-ca12275/DESCRIPTION’ ... OK
-#> * preparing ‘gganime’:
-#> * checking DESCRIPTION meta-information ... OK
-#> * checking for LF line-endings in source and make files and shell scripts
-#> * checking for empty or unneeded directories
-#> * building ‘gganime_0.0.0.9000.tar.gz’
-#> Installing package into '/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/Rtmpt1udRn/temp_libpath9d566ef8e0cc'
-#> (as 'lib' is unspecified)
+#>      checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpkcrdBr/remotesa3076f21f0c0/lingxuko-gganime-e7b2bf3/DESCRIPTION’ ...  ✔  checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpkcrdBr/remotesa3076f21f0c0/lingxuko-gganime-e7b2bf3/DESCRIPTION’
+#>   ─  preparing ‘gganime’:
+#>      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+#>   ─  checking for LF line-endings in source and make files and shell scripts
+#>   ─  checking for empty or unneeded directories
+#>   ─  building ‘gganime_0.0.0.9000.tar.gz’
+#>      
+#> 
 ```
 
 ## Example
