@@ -19,6 +19,8 @@ A lightweight, **ggsci-style** R package providing **built-in discrete palettes*
 
 “我的嘉心糖都是很厉害的人”——Diana
 
+<img src="man/figures/Diana.jpg" width="100" />
+
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/lingxuko/gganime/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/lingxuko/gganime/actions/workflows/R-CMD-check.yaml)
 [![pkgdown](https://github.com/lingxuko/gganime/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/lingxuko/gganime/actions/workflows/pkgdown.yaml)
