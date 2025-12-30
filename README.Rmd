@@ -51,7 +51,23 @@ Preview a palette:
 ```{r example}
 library(gganime)
 gganime_palettes()
+```
+
+A-Soul:
+
+```{r Asoul}
 show_anime("Asoul")
+```
+
+Mygo:
+
+```{r Mygo}
+show_anime("Mygo")
+```
+
+Bocchi the Rock!:
+
+```{r Bocchi}
 show_anime("Bocchi")
 ```
 

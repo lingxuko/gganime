@@ -34,7 +34,7 @@ Install the development version from GitHub:
 # install.packages("remotes")
 remotes::install_github("lingxuko/gganime")
 #> Using GitHub PAT from the git credential store.
-#> Skipping install of 'gganime' from a github remote, the SHA1 (520e1e2e) has not changed since last install.
+#> Skipping install of 'gganime' from a github remote, the SHA1 (753357ca) has not changed since last install.
 #>   Use `force = TRUE` to force installation
 ```
 
@@ -47,16 +47,31 @@ library(gganime)
 gganime_palettes()
 #> [1] "Asoul"  "Diana"  "Bella"  "Eileen" "Ava"    "Carol"  "Mygo"   "Mujica"
 #> [9] "Bocchi"
+```
+
+A-Soul:
+
+``` r
 show_anime("Asoul")
 ```
 
-<img src="man/figures/README-example-1.png" width="100%" />
+<img src="man/figures/README-Asoul-1.png" width="100%" />
+
+Mygo:
+
+``` r
+show_anime("Mygo")
+```
+
+<img src="man/figures/README-Mygo-1.png" width="100%" />
+
+Bocchi the Rock!:
 
 ``` r
 show_anime("Bocchi")
 ```
 
-<img src="man/figures/README-example-2.png" width="100%" />
+<img src="man/figures/README-Bocchi-1.png" width="100%" />
 
 Use with ggplot2:
 
