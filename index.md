@@ -1,0 +1,83 @@
+# gganime
+
+A lightweight, **ggsci-style** R package providing **built-in discrete
+palettes** inspired by A-SOUL, with drop-in `ggplot2` scales.
+
+“我的嘉心糖都是很厉害的人”——Diana
+
+## Features
+
+- Built-in discrete palettes (named palette registry)
+- `ggplot2` scales:
+  [`scale_color_anime()`](reference/scale_color_anime.md) and
+  [`scale_fill_anime()`](reference/scale_fill_anime.md)
+- Palette utility functions:
+  - `anime_palettes()` list available palettes
+  - [`pal_anime()`](reference/pal_anime.md) returns a palette function
+    (`function(n)`) in **ggsci style**
+  - [`show_anime()`](reference/show_anime.md) previews palettes with
+    palette name and HEX codes
+
+## Installation
+
+Install the development version from GitHub:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("lingxuko/gganime")
+#> Using GitHub PAT from the git credential store.
+#> Downloading GitHub repo lingxuko/gganime@HEAD
+#> ── R CMD build ─────────────────────────────────────────────────────────────────
+#>      checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpkcrdBr/remotesa3076f21f0c0/lingxuko-gganime-e7b2bf3/DESCRIPTION’ ...  ✔  checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpkcrdBr/remotesa3076f21f0c0/lingxuko-gganime-e7b2bf3/DESCRIPTION’
+#>   ─  preparing ‘gganime’:
+#>      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+#>   ─  checking for LF line-endings in source and make files and shell scripts
+#>   ─  checking for empty or unneeded directories
+#>   ─  building ‘gganime_0.0.0.9000.tar.gz’
+#>      
+#> 
+```
+
+## Example
+
+Preview a palette:
+
+``` r
+library(gganime)
+gganime_palettes()
+#> [1] "Asoul"  "Diana"  "Bella"  "Eileen" "Ava"    "Carol"  "Mygo"   "Mujica"
+#> [9] "Bocchi"
+show_anime("Asoul")
+```
+
+![](reference/figures/README-example-1.png)
+
+``` r
+show_anime("Bocchi")
+```
+
+![](reference/figures/README-example-2.png)
+
+Use with ggplot2:
+
+``` r
+library(ggplot2)
+library(gganime)
+
+set.seed(1)
+df <- data.frame(
+  x = rnorm(200),
+  grp = factor(sample(paste0("G", 1:5), 200, replace = TRUE),
+               levels = paste0("G", 1:5))
+)
+
+grp_effect <- setNames(c(-1.0, -0.4, 0.0, 0.5, 1.2), paste0("G", 1:5))
+df$y <- 0.7 * df$x + grp_effect[as.character(df$grp)] + rnorm(200, sd = 0.6)
+
+ggplot(df, aes(x, y, color = grp)) +
+  geom_point(size = 2, alpha = 0.9) +
+  scale_color_anime(palette = "Asoul") +
+  theme_minimal(base_size = 12)
+```
+
+![](reference/figures/README-unnamed-chunk-3-1.png)
