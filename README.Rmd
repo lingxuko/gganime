@@ -15,7 +15,9 @@ knitr::opts_chunk$set(
 
 # gganime
 
-A lightweight, **ggsci-style** R package providing **built-in discrete palettes** inspired by anime/illustration aesthetics, with drop-in `ggplot2` scales.
+A lightweight, **ggsci-style** R package providing **built-in discrete palettes** inspired by A-SOUL, with drop-in `ggplot2` scales. 
+
+“我的嘉心糖都是很厉害的人”——Diana
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/lingxuko/gganime/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/lingxuko/gganime/actions/workflows/R-CMD-check.yaml)

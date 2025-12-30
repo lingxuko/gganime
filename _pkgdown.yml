@@ -2,22 +2,3 @@ url: ~
 template:
   bootstrap: 5
 
-home:
-  title: animepal
-  description: "A ggsci-style palette package with built-in anime-inspired discrete palettes."
-
-reference:
-  - title: Palettes
-    contents:
-      - anime_palettes
-      - pal_anime
-      - show_anime
-  - title: ggplot2 scales
-    contents:
-      - scale_color_anime
-      - scale_fill_anime
-
-articles:
-  - title: Get started
-    contents:
-      - animepal
