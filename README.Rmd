@@ -15,18 +15,6 @@ knitr::opts_chunk$set(
 
 # gganime
 
-<!-- badges: start -->
-<!-- badges: end -->
-
-The goal of gganime is to ...
-
-## Installation
-
-You can install the development version of gganime like so:
-
-``` r
-# gganime
-
 A lightweight, **ggsci-style** R package providing **built-in discrete palettes** inspired by anime/illustration aesthetics, with drop-in `ggplot2` scales.
 
 <!-- badges: start -->
