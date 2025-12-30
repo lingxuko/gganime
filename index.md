@@ -5,6 +5,8 @@ palettes** inspired by A-SOUL, with drop-in `ggplot2` scales.
 
 “我的嘉心糖都是很厉害的人”——Diana
 
+![](reference/figures/Diana.jpg)
+
 ## Features
 
 - Built-in discrete palettes (named palette registry)
@@ -26,16 +28,8 @@ Install the development version from GitHub:
 # install.packages("remotes")
 remotes::install_github("lingxuko/gganime")
 #> Using GitHub PAT from the git credential store.
-#> Downloading GitHub repo lingxuko/gganime@HEAD
-#> ── R CMD build ─────────────────────────────────────────────────────────────────
-#>      checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpkcrdBr/remotesa3076f21f0c0/lingxuko-gganime-e7b2bf3/DESCRIPTION’ ...  ✔  checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpkcrdBr/remotesa3076f21f0c0/lingxuko-gganime-e7b2bf3/DESCRIPTION’
-#>   ─  preparing ‘gganime’:
-#>      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
-#>   ─  checking for LF line-endings in source and make files and shell scripts
-#>   ─  checking for empty or unneeded directories
-#>   ─  building ‘gganime_0.0.0.9000.tar.gz’
-#>      
-#> 
+#> Skipping install of 'gganime' from a github remote, the SHA1 (520e1e2e) has not changed since last install.
+#>   Use `force = TRUE` to force installation
 ```
 
 ## Example
@@ -62,6 +56,7 @@ Use with ggplot2:
 
 ``` r
 library(ggplot2)
+#> Warning: package 'ggplot2' was built under R version 4.4.3
 library(gganime)
 
 set.seed(1)
