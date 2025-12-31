@@ -28,8 +28,17 @@ Install the development version from GitHub:
 # install.packages("remotes")
 remotes::install_github("lingxuko/gganime")
 #> Using GitHub PAT from the git credential store.
-#> Skipping install of 'gganime' from a github remote, the SHA1 (029bb0b1) has not changed since last install.
-#>   Use `force = TRUE` to force installation
+#> Downloading GitHub repo lingxuko/gganime@HEAD
+#> 
+#> ── R CMD build ─────────────────────────────────────────────────────────────────
+#>      checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpcxInhP/remotesb32653ec5d86/lingxuko-gganime-bfa7ca3/DESCRIPTION’ ...  ✔  checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpcxInhP/remotesb32653ec5d86/lingxuko-gganime-bfa7ca3/DESCRIPTION’
+#>   ─  preparing ‘gganime’:
+#>      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+#>   ─  checking for LF line-endings in source and make files and shell scripts
+#>   ─  checking for empty or unneeded directories
+#>   ─  building ‘gganime_0.0.0.9000.tar.gz’
+#>      
+#> 
 ```
 
 ## Example
@@ -45,7 +54,7 @@ gganime_palettes()
 
 A-Soul:
 
-![](reference/figures/Diana%202.jpg)![](reference/figures/Bella.jpg)![](reference/figures/Eileen.jpg)![](reference/figures/Ava.jpg)![](reference/figures/Carol.jpg)
+![](reference/figures/Diana2.jpg)![](reference/figures/Bella.jpg)![](reference/figures/Eileen.jpg)![](reference/figures/Ava.jpg)![](reference/figures/Carol.jpg)
 
 ``` r
 show_anime("Asoul")
