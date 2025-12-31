@@ -34,7 +34,7 @@ Install the development version from GitHub:
 # install.packages("remotes")
 remotes::install_github("lingxuko/gganime")
 #> Using GitHub PAT from the git credential store.
-#> Skipping install of 'gganime' from a github remote, the SHA1 (753357ca) has not changed since last install.
+#> Skipping install of 'gganime' from a github remote, the SHA1 (029bb0b1) has not changed since last install.
 #>   Use `force = TRUE` to force installation
 ```
 
@@ -51,6 +51,16 @@ gganime_palettes()
 
 A-Soul:
 
+<div style="display:flex; gap:0px;">
+
+<img src="man/figures/Diana 2.jpg" width="150" />
+<img src="man/figures/Bella.jpg" width="150" />
+<img src="man/figures/Eileen.jpg" width="150" />
+<img src="man/figures/Ava.jpg" width="150" />
+<img src="man/figures/Carol.jpg" width="150" />
+
+</div>
+
 ``` r
 show_anime("Asoul")
 ```
@@ -66,6 +76,15 @@ show_anime("Mygo")
 <img src="man/figures/README-Mygo-1.png" width="100%" />
 
 Bocchi the Rock!:
+
+<div style="display:flex; gap:0px;">
+
+<img src="man/figures/Bocchi.gif" width="150" />
+<img src="man/figures/Kita.gif" width="150" />
+<img src="man/figures/Yamada.gif" width="150" />
+<img src="man/figures/Ijichi.gif" width="150" />
+
+</div>
 
 ``` r
 show_anime("Bocchi")
