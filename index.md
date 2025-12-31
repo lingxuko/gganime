@@ -30,7 +30,7 @@ Install the development version from GitHub:
 # install.packages("remotes")
 remotes::install_github("lingxuko/gganime")
 #> Using GitHub PAT from the git credential store.
-#> Skipping install of 'gganime' from a github remote, the SHA1 (b00919e8) has not changed since last install.
+#> Skipping install of 'gganime' from a github remote, the SHA1 (58260ecf) has not changed since last install.
 #>   Use `force = TRUE` to force installation
 ```
 
