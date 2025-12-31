@@ -4,13 +4,18 @@
 \alias{show_anime}
 \title{Show a palette}
 \usage{
-show_anime(palette = "Asoul", n = NULL)
+show_anime(palette = "Asoul", n = NULL, reverse = FALSE, alpha = 1)
 }
 \arguments{
 \item{palette}{Palette name.}
 
 \item{n}{Number of colors to show. Defaults to the palette max.}
+
+\item{reverse}{Reverse palette order.}
+
+\item{alpha}{Alpha transparency}
 }
 \description{
-Show a palette
+Title: "Palette of \if{html}{\out{<palette>}}"
+Each color block shows: "\if{html}{\out{<label>}}\n#RRGGBB" centered in the block
 }
