@@ -56,7 +56,7 @@ gganime_palettes()
 A-Soul:
 
 <div style="display:flex; gap:0px;">
-  <img src="man/figures/Diana 2.jpg" width="150" />
+  <img src="man/figures/Diana2.jpg" width="150" />
   <img src="man/figures/Bella.jpg" width="150" />
   <img src="man/figures/Eileen.jpg" width="150" />
   <img src="man/figures/Ava.jpg" width="150" />

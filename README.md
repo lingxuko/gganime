@@ -34,8 +34,17 @@ Install the development version from GitHub:
 # install.packages("remotes")
 remotes::install_github("lingxuko/gganime")
 #> Using GitHub PAT from the git credential store.
-#> Skipping install of 'gganime' from a github remote, the SHA1 (029bb0b1) has not changed since last install.
-#>   Use `force = TRUE` to force installation
+#> Downloading GitHub repo lingxuko/gganime@HEAD
+#> 
+#> ── R CMD build ─────────────────────────────────────────────────────────────────
+#>      checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpcxInhP/remotesb32653ec5d86/lingxuko-gganime-bfa7ca3/DESCRIPTION’ ...  ✔  checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpcxInhP/remotesb32653ec5d86/lingxuko-gganime-bfa7ca3/DESCRIPTION’
+#>   ─  preparing ‘gganime’:
+#>      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
+#>   ─  checking for LF line-endings in source and make files and shell scripts
+#>   ─  checking for empty or unneeded directories
+#>   ─  building ‘gganime_0.0.0.9000.tar.gz’
+#>      
+#> 
 ```
 
 ## Example
@@ -53,7 +62,7 @@ A-Soul:
 
 <div style="display:flex; gap:0px;">
 
-<img src="man/figures/Diana 2.jpg" width="150" />
+<img src="man/figures/Diana2.jpg" width="150" />
 <img src="man/figures/Bella.jpg" width="150" />
 <img src="man/figures/Eileen.jpg" width="150" />
 <img src="man/figures/Ava.jpg" width="150" />
