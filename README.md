@@ -39,10 +39,9 @@ remotes::install_github("lingxuko/gganime")
 #> Downloading GitHub repo lingxuko/gganime@HEAD
 #> 
 #> ── R CMD build ─────────────────────────────────────────────────────────────────
-#>      checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/Rtmp930k78/remotesc2f7588761af/lingxuko-gganime-6e8b9eb/DESCRIPTION’ ...  ✔  checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/Rtmp930k78/remotesc2f7588761af/lingxuko-gganime-6e8b9eb/DESCRIPTION’
+#>      checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpbC5FcX/remotese2ead48521c/lingxuko-gganime-a7cb8e9/DESCRIPTION’ ...  ✔  checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpbC5FcX/remotese2ead48521c/lingxuko-gganime-a7cb8e9/DESCRIPTION’
 #>   ─  preparing ‘gganime’:
 #>      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
-#>      Warning: /private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpijzGWP/Rbuildc30a28bab173/gganime/man/show_anime.Rd:20: unknown macro '\n'
 #>   ─  checking for LF line-endings in source and make files and shell scripts
 #>   ─  checking for empty or unneeded directories
 #>   ─  building ‘gganime_0.0.0.9000.tar.gz’
