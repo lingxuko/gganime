@@ -8,7 +8,7 @@
 #' Show a palette
 #'
 #' Title: "Palette of <palette>"
-#' Each color block shows: "<label>\n#RRGGBB" centered in the block
+#' Each color block shows: "<label>#RRGGBB" centered in the block
 #'
 #' @param palette Palette name.
 #' @param n Number of colors to show. Defaults to the palette max.

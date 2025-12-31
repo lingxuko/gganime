@@ -17,5 +17,5 @@ show_anime(palette = "Asoul", n = NULL, reverse = FALSE, alpha = 1)
 }
 \description{
 Title: "Palette of \if{html}{\out{<palette>}}"
-Each color block shows: "\if{html}{\out{<label>}}\n#RRGGBB" centered in the block
+Each color block shows: "\if{html}{\out{<label>}}#RRGGBB" centered in the block
 }
