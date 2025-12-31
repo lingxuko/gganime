@@ -1,11 +1,13 @@
-# gganime
+# gganime-An R Package Inspired by A-SOUL!
 
-A lightweight, **ggsci-style** R package providing **built-in discrete
-palettes** inspired by A-SOUL, with drop-in `ggplot2` scales.
-
-“我的嘉心糖都是很厉害的人”——Diana
+**“我的嘉心糖都是很厉害的人”——嘉然(Diana)**
 
 ![](reference/figures/Diana.jpg)
+
+A lightweight R package providing **built-in discrete palettes** based
+on the representative colors of **A-SOUL**, with drop-in `ggplot2`
+scales. The package also contains palettes of **It’s Mygo**, **Ave
+Mujica**, and **Bocchi the Rock!**.
 
 ## Features
 
@@ -28,22 +30,11 @@ Install the development version from GitHub:
 # install.packages("remotes")
 remotes::install_github("lingxuko/gganime")
 #> Using GitHub PAT from the git credential store.
-#> Downloading GitHub repo lingxuko/gganime@HEAD
-#> 
-#> ── R CMD build ─────────────────────────────────────────────────────────────────
-#>      checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpcxInhP/remotesb32653ec5d86/lingxuko-gganime-bfa7ca3/DESCRIPTION’ ...  ✔  checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpcxInhP/remotesb32653ec5d86/lingxuko-gganime-bfa7ca3/DESCRIPTION’
-#>   ─  preparing ‘gganime’:
-#>      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
-#>   ─  checking for LF line-endings in source and make files and shell scripts
-#>   ─  checking for empty or unneeded directories
-#>   ─  building ‘gganime_0.0.0.9000.tar.gz’
-#>      
-#> 
+#> Skipping install of 'gganime' from a github remote, the SHA1 (b00919e8) has not changed since last install.
+#>   Use `force = TRUE` to force installation
 ```
 
-## Example
-
-Preview a palette:
+## Palette Preview
 
 ``` r
 library(gganime)
@@ -52,33 +43,40 @@ gganime_palettes()
 #> [9] "Bocchi"
 ```
 
-A-Soul:
+## **A-SOUL** Palette:
+
+[Wiki of A-SOUL](https://virtualyoutuber.fandom.com/wiki/A-SOUL)
 
 ![](reference/figures/Diana2.jpg)![](reference/figures/Bella.jpg)![](reference/figures/Eileen.jpg)![](reference/figures/Ava.jpg)![](reference/figures/Carol.jpg)
 
 ``` r
+# A-SOUL Palette Preview
 show_anime("Asoul")
 ```
 
 ![](reference/figures/README-Asoul-1.png)
 
-Mygo:
+## **Bocchi the Rock!** Palette:
+
+[Wiki of Bocchi the
+Rock!](https://en.wikipedia.org/wiki/Bocchi_the_Rock!)
+
+![](reference/figures/Bocchi.gif)![](reference/figures/Kita.gif)![](reference/figures/Yamada.gif)![](reference/figures/Ijichi.gif)
+
+``` r
+# Bocchi the Rock! Palette Preview
+show_anime("Bocchi")
+```
+
+![](reference/figures/README-Bocchi-1.png)
+
+## **It’s Mygo** Palette:
 
 ``` r
 show_anime("Mygo")
 ```
 
 ![](reference/figures/README-Mygo-1.png)
-
-Bocchi the Rock!:
-
-![](reference/figures/Bocchi.gif)![](reference/figures/Kita.gif)![](reference/figures/Yamada.gif)![](reference/figures/Ijichi.gif)
-
-``` r
-show_anime("Bocchi")
-```
-
-![](reference/figures/README-Bocchi-1.png)
 
 Use with ggplot2:
 
