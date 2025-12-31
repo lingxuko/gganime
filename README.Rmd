@@ -13,13 +13,13 @@ knitr::opts_chunk$set(
 )
 ```
 
-# gganime
+# gganime-An R Package Inspired by A-SOUL! <img src="man/figures/logo.png" align="right" width="160" />
 
-A lightweight, **ggsci-style** R package providing **built-in discrete palettes** inspired by A-SOUL, with drop-in `ggplot2` scales. 
-
-“我的嘉心糖都是很厉害的人”——Diana
+**“我的嘉心糖都是很厉害的人”——嘉然(Diana)**
 
 <img src="man/figures/Diana.jpg" width="100" />
+
+A lightweight R package providing **built-in discrete palettes** based on the representative colors of **A-SOUL**, with drop-in `ggplot2` scales. The package also contains palettes of **It's Mygo**, **Ave Mujica**, and **Bocchi the Rock!**.
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/lingxuko/gganime/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/lingxuko/gganime/actions/workflows/R-CMD-check.yaml)
@@ -44,18 +44,17 @@ Install the development version from GitHub:
 remotes::install_github("lingxuko/gganime")
 ```
 
-## Example
-
-Preview a palette:
+## Palette Preview
 
 ```{r example}
 library(gganime)
 gganime_palettes()
 ```
 
-A-Soul:
+## **A-SOUL** Palette:
+[Wiki of A-SOUL](https://virtualyoutuber.fandom.com/wiki/A-SOUL) 
 
-<div style="display:flex; gap:0px;">
+<div style="display:flex; justify-content:center; align-items:center; gap:0px;">
   <img src="man/figures/Diana2.jpg" width="150" />
   <img src="man/figures/Bella.jpg" width="150" />
   <img src="man/figures/Eileen.jpg" width="150" />
@@ -64,18 +63,14 @@ A-Soul:
 </div>
 
 ```{r Asoul}
+# A-SOUL Palette Preview
 show_anime("Asoul")
 ```
 
-Mygo:
+## **Bocchi the Rock!** Palette:
+[Wiki of Bocchi the Rock!](https://en.wikipedia.org/wiki/Bocchi_the_Rock!)
 
-```{r Mygo}
-show_anime("Mygo")
-```
-
-Bocchi the Rock!:
-
-<div style="display:flex; gap:0px;">
+<div style="display:flex; justify-content:center; align-items:center; gap:0px;">
   <img src="man/figures/Bocchi.gif" width="150" />
   <img src="man/figures/Kita.gif" width="150" />
   <img src="man/figures/Yamada.gif" width="150" />
@@ -83,7 +78,14 @@ Bocchi the Rock!:
 </div>
 
 ```{r Bocchi}
+# Bocchi the Rock! Palette Preview
 show_anime("Bocchi")
+```
+
+## **It's Mygo** Palette:
+
+```{r Mygo}
+show_anime("Mygo")
 ```
 
 Use with ggplot2:

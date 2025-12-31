@@ -1,14 +1,16 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# gganime
+# gganime-An R Package Inspired by A-SOUL! <img src="man/figures/logo.png" align="right" width="160" />
 
-A lightweight, **ggsci-style** R package providing **built-in discrete
-palettes** inspired by A-SOUL, with drop-in `ggplot2` scales.
-
-“我的嘉心糖都是很厉害的人”——Diana
+**“我的嘉心糖都是很厉害的人”——嘉然(Diana)**
 
 <img src="man/figures/Diana.jpg" width="100" />
+
+A lightweight R package providing **built-in discrete palettes** based
+on the representative colors of **A-SOUL**, with drop-in `ggplot2`
+scales. The package also contains palettes of **It’s Mygo**, **Ave
+Mujica**, and **Bocchi the Rock!**.
 
 <!-- badges: start -->
 
@@ -34,22 +36,11 @@ Install the development version from GitHub:
 # install.packages("remotes")
 remotes::install_github("lingxuko/gganime")
 #> Using GitHub PAT from the git credential store.
-#> Downloading GitHub repo lingxuko/gganime@HEAD
-#> 
-#> ── R CMD build ─────────────────────────────────────────────────────────────────
-#>      checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpcxInhP/remotesb32653ec5d86/lingxuko-gganime-bfa7ca3/DESCRIPTION’ ...  ✔  checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpcxInhP/remotesb32653ec5d86/lingxuko-gganime-bfa7ca3/DESCRIPTION’
-#>   ─  preparing ‘gganime’:
-#>      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
-#>   ─  checking for LF line-endings in source and make files and shell scripts
-#>   ─  checking for empty or unneeded directories
-#>   ─  building ‘gganime_0.0.0.9000.tar.gz’
-#>      
-#> 
+#> Skipping install of 'gganime' from a github remote, the SHA1 (b00919e8) has not changed since last install.
+#>   Use `force = TRUE` to force installation
 ```
 
-## Example
-
-Preview a palette:
+## Palette Preview
 
 ``` r
 library(gganime)
@@ -58,9 +49,11 @@ gganime_palettes()
 #> [9] "Bocchi"
 ```
 
-A-Soul:
+## **A-SOUL** Palette:
 
-<div style="display:flex; gap:0px;">
+[Wiki of A-SOUL](https://virtualyoutuber.fandom.com/wiki/A-SOUL)
+
+<div style="display:flex; justify-content:center; align-items:center; gap:0px;">
 
 <img src="man/figures/Diana2.jpg" width="150" />
 <img src="man/figures/Bella.jpg" width="150" />
@@ -71,22 +64,18 @@ A-Soul:
 </div>
 
 ``` r
+# A-SOUL Palette Preview
 show_anime("Asoul")
 ```
 
 <img src="man/figures/README-Asoul-1.png" width="100%" />
 
-Mygo:
+## **Bocchi the Rock!** Palette:
 
-``` r
-show_anime("Mygo")
-```
+[Wiki of Bocchi the
+Rock!](https://en.wikipedia.org/wiki/Bocchi_the_Rock!)
 
-<img src="man/figures/README-Mygo-1.png" width="100%" />
-
-Bocchi the Rock!:
-
-<div style="display:flex; gap:0px;">
+<div style="display:flex; justify-content:center; align-items:center; gap:0px;">
 
 <img src="man/figures/Bocchi.gif" width="150" />
 <img src="man/figures/Kita.gif" width="150" />
@@ -96,10 +85,19 @@ Bocchi the Rock!:
 </div>
 
 ``` r
+# Bocchi the Rock! Palette Preview
 show_anime("Bocchi")
 ```
 
 <img src="man/figures/README-Bocchi-1.png" width="100%" />
+
+## **It’s Mygo** Palette:
+
+``` r
+show_anime("Mygo")
+```
+
+<img src="man/figures/README-Mygo-1.png" width="100%" />
 
 Use with ggplot2:
 
