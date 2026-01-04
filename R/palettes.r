@@ -11,7 +11,8 @@
   Carol = c("#E5DDF6", "#9566AC", "#B99FE8", "#2B244E", "#F4E6FF", "#8876DA"),
   Mygo = c("#E6E4E7", "#9E94A7", "#D0AA9B", "#FCCFE0", "#725F67"),
   Mujica = c("#E9EFE4", "#FDF5E0", "#6D6C67", "#C8D5E6", "#CEBED9"),
-  Bocchi = c("#F4BAC6", "#DB725F", "#778FB6", "#F2DB8B")
+  Bocchi = c("#F4BAC6", "#DB725F", "#778FB6", "#F2DB8B"),
+  Bocchi_8 = c("#E9608E", "#F8ABC1", "#E40647", "#DB725F", "#FABD03", "#F4DF87" ,"#0070BA","#778FB6")
 )
 
 #' List available animepal palettes
