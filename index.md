@@ -28,19 +28,10 @@ Install the development version from GitHub:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("lingxuko/gganime")
-#> Using GitHub PAT from the git credential store.
-#> Downloading GitHub repo lingxuko/gganime@HEAD
-#> 
-#> ── R CMD build ─────────────────────────────────────────────────────────────────
-#>      checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpbC5FcX/remotese2ead48521c/lingxuko-gganime-a7cb8e9/DESCRIPTION’ ...  ✔  checking for file ‘/private/var/folders/g2/cfx6ss8522vc6pth53lkh_wr0000gn/T/RtmpbC5FcX/remotese2ead48521c/lingxuko-gganime-a7cb8e9/DESCRIPTION’
-#>   ─  preparing ‘gganime’:
-#>      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
-#>   ─  checking for LF line-endings in source and make files and shell scripts
-#>   ─  checking for empty or unneeded directories
-#>   ─  building ‘gganime_0.0.0.9000.tar.gz’
-#>      
-#> 
+if (!require("remotes")) {install.packages("remotes");require("remotes")}
+#> Loading required package: remotes
+if (!require("gganime")) {remotes::install_github("lingxuko/gganime");require("gganime")}
+#> Loading required package: gganime
 ```
 
 ## Palette Preview

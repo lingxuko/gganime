@@ -6,8 +6,8 @@ rmarkdown::html_vignette vignette: \> % % % —
 ``` r
 library(gganime)
 gganime_palettes()
-#> [1] "Asoul"  "Diana"  "Bella"  "Eileen" "Ava"    "Carol"  "Mygo"   "Mujica"
-#> [9] "Bocchi"
+#>  [1] "Asoul"    "Diana"    "Bella"    "Eileen"   "Ava"      "Carol"   
+#>  [7] "Mygo"     "Mujica"   "Bocchi"   "Bocchi_8"
 show_anime("Asoul");show_anime("Bocchi")
 ```
 

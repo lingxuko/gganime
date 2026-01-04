@@ -10,4 +10,4 @@ A named list of character vectors (hex colors).
 
 ## Format
 
-An object of class `list` of length 9.
+An object of class `list` of length 10.
